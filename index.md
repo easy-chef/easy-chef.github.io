@@ -39,7 +39,7 @@ This section is soon to be available.
 The landing page is presented to users when they visit the top-level URL to the site.
 It will be similar to the image below:
 
-![](images/landing)
+![](images/landing.png)
 
 ## Development History & Milestones
 
