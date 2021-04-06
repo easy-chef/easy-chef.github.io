@@ -13,7 +13,7 @@
 
 ## Overview
 
-Easy Chef is an example web application that provides pages to view and (in some cases) modify profiles, projects, and interests. It illustrates various technologies useful to ICS software engineering students, including:
+Easy Chef is an example web application that provides pages to view and (in some cases) modify profiles, recipes, and vendors. It illustrates various technologies useful to ICS software engineering students, including:
 
 * [Meteor](https://www.meteor.com/) for Javascript-based implementation of client and server code.
 * [React](https://reactjs.org/) for component-based UI implementation and routing.
@@ -22,14 +22,13 @@ Easy Chef is an example web application that provides pages to view and (in some
 
 It also provides code that implements a variety of useful design concepts, including:
 
-* Three primary collections (Profiles, Projects, Interests) as well as three "join" Collections (ProfilesInterests, ProfilesProjects, and ProjectsInterests) that implement many-to-many relationships between them.
-* Top-level index pages (Profiles, Interests, and Projects) that show how to manipulate these six collections in various ways.
-* Initialization code to define default Profiles, Interests, and Projects and relations between them.
-* A simple Filter page to illustrate how to perform simple queries on the database and display the results.
+* Three primary collections (Profiles, Recipes, Vendors) as well as two "join" Collections (ProfilesRecipes, VendorItems) that implement many-to-many relationships between them.
+* Top-level index pages (Profiles, Recipes, Vendors) that show how to manipulate these five collections in various ways.
+* Initialization code to define default Profiles, Recipes, Vendors and relations between them.
 * Use of Meteor Methods to illustrate how to simplify implementation of multiple collection updates.
 * Use of indexes to enforce uniqueness of certain fields in the collections, enabling them to serve as primary keys.
 * Authentication using the built-in Meteor accounts package along with Sign Up and Sign In pages.
-* Authorization examples: certain pages are public (Profiles, Projects, Interests), while other pages require login (AddProject, Filter).
+* Authorization examples: certain pages are public (SearchRecipes, Vendors, Profiles), while other pages require login (AddRecipe, EditProfile, EditVendor, MyRecipes).
 * Use of Meteor Assets to initialize the database (helpful when initialization exceeds settings file size limits).
 
 ## Deployment
@@ -44,21 +43,21 @@ This section is soon to be available.
 
 The landing page is presented to users when they visit the top-level URL to the site.
 
-### Index pages (Projects, Profiles, Interests)
+### Index pages (Profiles, Recipes, Vendors)
 
 Bowfolios provides three public pages that present the contents of the database organized in various ways.
 
-The Profiles page shows all the current defined profiles and their associated Projects and Interests:
+The Profiles page shows all the current defined profiles and their associated Recipes:
 
-![](images/profiles-page.png)
+*Image to be available*
 
-The Projects page shows all of the currently defined Projects and their associated Profiles and Interests:
+The Recipes page shows all of the currently defined Recipes and their associated Descriptions, Ingredients, Costs, and Images:
 
-![](images/projects-page.png)
+*Image to be available*
 
-Finally, the Interests page shows all the currently defined Interests, and their associated Profiles and Projects:
+Finally, the Vendor page shows all the currently defined Hours and location:
 
-![](images/interests-page.png)
+*Image to be available*
 
 
 ### Sign in and sign up
