@@ -34,6 +34,13 @@ A live deployment of Easy Chef is soon to be available.
 
 This section is soon to be available.
 
+### Landing Page
+
+The landing page is presented to users when they visit the top-level URL to the site.
+It will be similar to the image below:
+
+![](images/landing)
+
 ## Development History & Milestones
 
 The development process for EasyChef utilized  [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f19/modules/project-management/) practices. This development process consits of
