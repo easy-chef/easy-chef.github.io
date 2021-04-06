@@ -13,7 +13,7 @@
 
 ## Overview
 
-BowFolios is an example web application that provides pages to view and (in some cases) modify profiles, projects, and interests. It illustrates various technologies useful to ICS software engineering students, including:
+Easy Chef is an example web application that provides pages to view and (in some cases) modify profiles, projects, and interests. It illustrates various technologies useful to ICS software engineering students, including:
 
 * [Meteor](https://www.meteor.com/) for Javascript-based implementation of client and server code.
 * [React](https://reactjs.org/) for component-based UI implementation and routing.
@@ -34,17 +34,15 @@ It also provides code that implements a variety of useful design concepts, inclu
 
 ## Deployment
 
-A live deployment of BowFolios is available at [https://bowfolios.org](https://bowfolios.org).
+A live deployment of Easy Chef is soon to be available.
 
 ## User Guide
 
-This section provides a walkthrough of the Bowfolios user interface and its capabilities.
+This section is soon to be available. 
 
 ### Landing Page
 
 The landing page is presented to users when they visit the top-level URL to the site.
-
-![](images/landing-page.png)
 
 ### Index pages (Projects, Profiles, Interests)
 
@@ -175,91 +173,13 @@ It's significantly easier to do development with ESLint integrated directly into
 
 #### End to End Testing
 
-BowFolios uses [TestCafe](https://devexpress.github.io/testcafe/) to provide automated end-to-end testing.
+This section is soon to be available. 
 
-The BowFolios end-to-end test code employs the page object model design pattern.  In the [bowfolios tests/ directory](https://github.com/bowfolios/bowfolios/tree/master/app/tests), the file [tests.testcafe.js](https://github.com/bowfolios/bowfolios/blob/master/app/tests/tests.testcafe.js) contains the TestCafe test definitions. The remaining files in the directory contain "page object models" for the various pages in the system (i.e. Home, Landing, Interests, etc.) as well as one component (navbar). This organization makes the test code shorter, easier to understand, and easier to debug.
-
-To run the end-to-end tests in development mode, you must first start up a BowFolios instance by invoking `meteor npm run start` in one console window.
-
-Then, in another console window, start up the end-to-end tests with:
-
-```
-meteor npm run testcafe
-```
-
-You will see browser windows appear and disappear as the tests run.  If the tests finish successfully, you should see the following in your second console window:
-
-```
-$ meteor npm run testcafe
-
-> bowfolios@ testcafe /Users/philipjohnson/github/bowfolios/bowfolios/app
-> testcafe chrome tests/*.testcafe.js
-
- Running tests in:
- - Chrome 86.0.4240.111 / macOS 10.15.7
-
- Bowfolios localhost test with default db
- ✓ Test that landing page shows up
- ✓ Test that signin and signout work
- ✓ Test that signup page, then logout works
- ✓ Test that profiles page displays
- ✓ Test that interests page displays
- ✓ Test that projects page displays
- ✓ Test that home page display and profile modification works
- ✓ Test that addProject page works
- ✓ Test that filter page works
-
-
- 9 passed (40s)
-
- $
-```
-
-You can also run the testcafe tests in "continuous integration mode".  This mode is appropriate when you want to run the tests using a continuous integration service like Jenkins, Semaphore, CircleCI, etc.  In this case, it is problematic to already have the server running in a separate console, and you cannot have the browser window appear and disappear.
-
-To run the testcafe tests in continuous integration mode, first ensure that BowFolios is not running in any console.
-
-Then, invoke `meteor npm run testcafe-ci`.  You will not see any windows appear.  When the tests finish, the console should look like this:
-
-```
-$ meteor npm run testcafe-ci
-
-> bowfolios@ testcafe-ci /Users/philipjohnson/github/bowfolios/bowfolios/app
-> testcafe chrome:headless tests/*.testcafe.js -q --app "meteor npm run start"
-
- Running tests in:
- - Chrome 86.0.4240.111 / macOS 10.15.7
-
- Bowfolios localhost test with default db
- ✓ Test that landing page shows up (unstable)
- ✓ Test that signin and signout work
- ✓ Test that signup page, then logout works
- ✓ Test that profiles page displays
- ✓ Test that interests page displays
- ✓ Test that projects page displays
- ✓ Test that home page display and profile modification works
- ✓ Test that addProject page works
- ✓ Test that filter page works
-
-
- 9 passed (56s)
-
-$
-```
-
-All the tests pass, but the first test is marked as "unstable". At the time of writing, TestCafe fails the first time it tries to run a test in this mode, but subsequent attempts run normally. To prevent the test run from failing due to this problem with TestCafe, we enable [testcafe quarantine mode](https://devexpress.github.io/testcafe/documentation/guides/basic-guides/run-tests.html#quarantine-mode).
-
-The only impact of quarantine mode should be that the first test is marked as "unstable".
 
 ## From mockup to production
 
-Bowfolios is meant to illustrate the use of Meteor for developing an initial proof-of-concept prototype.  For a production application, several additional security-related changes must be implemented:
+This section is soon to be available. 
 
-* Use of email-based password specification for users, and/or use of an alternative authentication mechanism.
-* Use of https so that passwords are sent in encrypted format.
-* Removal of the insecure package, and the addition of Meteor Methods to replace client-side DB updates.
-
-(Note that these changes do not need to be implemented for ICS 314, although they are relatively straightforward to accomplish.)
 
 ## Continuous Integration
 
@@ -337,7 +257,7 @@ There are a number of simple enhancements you can make to the system to become b
 
 ## Team
 
-BowFolios is designed, implemented, and maintained by [Philip Johnson](https://philipmjohnson.org).
+BowFolios is designed, implemented, and maintained by ...
 
 
 
