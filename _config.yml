@@ -1,1 +1,9 @@
+title: EasyChef
+description: Make simple recipes with simple kitchen tools
+show_downloads: false
 theme: jekyll-theme-cayman
+github:
+  is_project_page: true
+  repository_url: https://github.com/easy-chef/easy-chef
+gems:
+  - jekyll-mentions
