@@ -30,7 +30,7 @@ The following is what is currently planned for what the system will eventually p
 
 ## Deployment
 
-A live deployment of Easy Chef is soon to be available.
+A live deployment of EasyChef is soon to be available.
 
 ## User Guide
 
@@ -39,7 +39,7 @@ This section is soon to be available.
 ### Landing Page
 
 The landing page is presented to users when they visit the top-level URL to the site.
-It will be similar to the image below:
+It will be similar to the image below that will serve as a basis for the final design:
 
 ![](images/landing.png)
 
@@ -47,7 +47,7 @@ It will be similar to the image below:
 
 The development process for EasyChef utilized the [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f19/modules/project-management/) practices.
 
-In order to record the development history, various Milestones will be documents which is presented below.
+In order to record the development history, various Milestones will be documented which is presented below.
 
 ### Milestone 1: Mockup development
 
