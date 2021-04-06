@@ -3,12 +3,14 @@
 * [Overview](#overview)
 * [Deployment](#deployment)
 * [User Guide](#user-guide)
-* [Development History & Milestones](#development-history)
+* [Development History & Milestones](#development-history-&-milestones)
 * [Team](#team)
 
 ## Overview
 
-Easy Chef is an example web application that provides pages to view and (in some cases) modify profiles, recipes, and vendors. The goal is provide an application that the UH community will use in order discover simple and affordable recipes for their meals.  It illustrates various technologies including:
+For college students, money is always of concern for anything including the meals that we prepare.  Creating meals can be difficult for various reasons such as kitchen resources, cooking ability, and ingredient availability.  No longer will a student simply resort to only a cup of noodles.  With EasyChef, anyone can discover delicious recipes that is easy to make.
+
+Easy Chef is an example web application that provides pages to view and (in some cases) modify profiles, recipes, and vendors. The goal is provide an application that the UH community will use in order discover simple and affordable recipes for their meals including where to get its associated ingredients. It illustrates various technologies including:
 
 * [Meteor](https://www.meteor.com/) for Javascript-based implementation of client and server code.
 * [React](https://reactjs.org/) for component-based UI implementation and routing.
@@ -18,7 +20,7 @@ Easy Chef is an example web application that provides pages to view and (in some
 The following is what is currently planned for what the system will eventually provide:
 
 * Three primary collections (Profiles, Recipes, Vendors) as well as two "join" Collections (ProfilesRecipes, VendorItems) that implement many-to-many relationships between them.
-* Top-level index pages (Profiles, Recipes, Vendors) that show how to manipulate these five collections in various ways.
+* Top-level index pages (Profiles, Recipes, Vendors) that show how to manipulate these collections in various ways.
 * Initialization code to define default Profiles, Recipes, Vendors and relations between them.
 * Use of Meteor Methods to illustrate how to simplify implementation of multiple collection updates.
 * Use of indexes to enforce uniqueness of certain fields in the collections, enabling them to serve as primary keys.
@@ -43,7 +45,7 @@ It will be similar to the image below:
 
 ## Development History & Milestones
 
-The development process for EasyChef utilized  [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f19/modules/project-management/) practices. This development process consits of
+The development process for EasyChef utilized  [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f19/modules/project-management/) practices. This development process consists of:
 
 * Development consists of a sequence of Milestones.
 * Each Milestone is specified as a set of tasks.
@@ -53,7 +55,7 @@ The development process for EasyChef utilized  [Issue Driven Project Management]
 * When a task is complete, its corresponding issue is closed and its corresponding git branch is merged into master.
 * The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
 
-In order to record the development history, various Milestones will be docuemnted which is presented below.
+In order to record the development history, various Milestones will be documents which is presented below.
 
 ### Milestone 1: Mockup development
 
