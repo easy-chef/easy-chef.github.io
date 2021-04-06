@@ -3,7 +3,7 @@
 * [Overview](#overview)
 * [Deployment](#deployment)
 * [User Guide](#user-guide)
-* [Development History & Milestones](#development-history-&-milestones)
+* [Development History and Milestones](#development-history-and-milestones)
 * [Team](#team)
 
 ## Overview
@@ -12,10 +12,10 @@ For college students, money is always of concern for anything including the meal
 
 Easy Chef is an example web application that provides pages to view and (in some cases) modify profiles, recipes, and vendors. The goal is provide an application that the UH community will use in order discover simple and affordable recipes for their meals including where to get its associated ingredients. It illustrates various technologies including:
 
-* [Meteor](https://www.meteor.com/) for Javascript-based implementation of client and server code.
-* [React](https://reactjs.org/) for component-based UI implementation and routing.
-* [Semantic UI React](https://react.semantic-ui.com/) CSS Framework for UI design.
-* [Uniforms](https://uniforms.tools/) for React and Semantic UI-based form design and display.
+* [Meteor](https://www.meteor.com/): Framework used for server and client code
+* [React](https://reactjs.org/): A Javascript library used to implement UI design
+* [Semantic UI React](https://react.semantic-ui.com/): CSS framework within react to implement UI components
+* [Uniforms](https://uniforms.tools/): used to present and display form information.
 
 The following is what is currently planned for what the system will eventually provide:
 
@@ -43,17 +43,9 @@ It will be similar to the image below:
 
 ![](images/landing.png)
 
-## Development History & Milestones
+## Development History and Milestones
 
-The development process for EasyChef utilized  [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f19/modules/project-management/) practices. This development process consists of:
-
-* Development consists of a sequence of Milestones.
-* Each Milestone is specified as a set of tasks.
-* Each task is described using a GitHub Issue, and is assigned to a single developer to complete.
-* Tasks should typically consist of work that can be completed in 2-4 days.
-* The work for each task is accomplished with a git branch named "issue-XX", where XX is replaced by the issue number.
-* When a task is complete, its corresponding issue is closed and its corresponding git branch is merged into master.
-* The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
+The development process for EasyChef utilized the [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f19/modules/project-management/) practices.
 
 In order to record the development history, various Milestones will be documents which is presented below.
 
@@ -63,7 +55,7 @@ Mockup development currently in progress
 
 ## Team
 
-BowFolios is designed, implemented, and maintained by Makana Lacson-Garrett, Joshua Paino, Karen Wong, and Kat Shimomura.
+EasyChef is designed, implemented, and maintained by Makana Lacson-Garrett, Joshua Paino, Karen Wong, and Kat Shimomura.
 
 
 
