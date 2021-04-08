@@ -3,6 +3,7 @@
 * [Overview](#overview)
 * [Deployment](#deployment)
 * [User Guide](#user-guide)
+* [Pre-Development Mockup](#pre-development-mockup)
 * [Development History and Milestones](#development-history-and-milestones)
 * [Team](#team)
 
@@ -43,7 +44,7 @@ This section is soon to be available.
 
 ## Pre-Development Mockup
 
-The UI mockups below were created using Photoshop and will serve as a basis for the development for [Milestone 1.](https://github.com/easy-chef/easy-chef/projects/1)
+The UI mockups below were created using Photoshop and serves as the basis for the development for [Milestone 1.](https://github.com/easy-chef/easy-chef/projects/1)
 
 ### Landing Page
 
@@ -97,7 +98,7 @@ In order to record the development history, various milestones will be documente
 
 ### Milestone 1: Mockup development
 
-Mockup development currently in progress.  To view the progress of our mockup development, visit our [project board.](https://github.com/easy-chef/easy-chef/projects/1)
+Mockup development using Meteor and React is currently in progress.  To view the progress of our mockup development, visit our [project board.](https://github.com/easy-chef/easy-chef/projects/1)
 
 ## Team
 
