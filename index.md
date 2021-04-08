@@ -28,10 +28,10 @@ The following is what is currently planned for what the system will eventually p
 
 * Three primary collections (Profiles, Recipes, Vendors) as well as two "join" Collections (ProfilesRecipes,
   VendorItems) that implement many-to-many relationships between them.
-* Top-level index pages (Profiles, Recipes, Vendors) that will manipulate the collections above.
+* Top-level index pages that will manipulate the collections above.
 * Authentication system using the Meteor accounts package to verify the credentials of who logs-in to the system.
-* Notification system that connects with the VendorItems and ProfilesRecipes collection to notify when items are on sale or when a user has used an ingredient in their recipe.
-* Rating system to rate student posted recipes and quality of items posted by recipes.
+* Notification system that connects with the collections to notify when items are on sale or when a user has used an ingredient in their recipe.
+* Rating system (5 stars) to rate user posted recipes and quality of ingredients posted by vendors.
 * Map of the UH campus community to allow students to find ingredients posted by vendors and see if a certain vendor item is available at a certain location (ex. Foodland @ Ala Moana).
 
 ## Deployment
@@ -49,7 +49,7 @@ The UI mockups below were created using Photoshop and serves as the basis for th
 ### Landing Page
 
 The landing page is presented to users when they visit the top-level URL to the site. It will be similar to the image
-below that will serve as a basis for the final design:
+below that will serve as a basis for the final design.
 
 ![](images/Mockup-Landing.png)
 
@@ -85,7 +85,7 @@ A dedicated page to search all recipes that has been posted to the application. 
 
 ### Individual Recipe Page
 
-The page dedicated to displaying information of a recipe that have been created by a student.  This page present information such as the recipe name, author, image, ingredients, and steps.  The ingredients will be tied to information posted by vendors to allow students to discover where in the UH area they will be able to find said ingredients.
+The page dedicated to displaying information of a recipe that have been created by a student.  This page present information such as the recipe name, author, image, ingredients, steps, and total cost.  The ingredients will be tied to information posted by vendors to allow students to discover where in the UH area they will be able to find said ingredients and how much each item costs at a particular location.
 
 ![](images/Mockup-Recipe.png)
 
