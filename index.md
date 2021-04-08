@@ -44,12 +44,26 @@ A live deployment of EasyChef is soon to be available.
 
 This section is soon to be available.
 
+## Mockup
+
 ### Landing Page
 
 The landing page is presented to users when they visit the top-level URL to the site. It will be similar to the image
 below that will serve as a basis for the final design:
 
 ![](images/landing.png)
+
+### User Home Page
+
+### Admin Home Page
+
+### Vendor Home Page
+
+### User Profile Page
+
+### NavBar Search Engine
+
+### Individual Recipe Page
 
 ## Development History and Milestones
 
