@@ -51,19 +51,31 @@ This section is soon to be available.
 The landing page is presented to users when they visit the top-level URL to the site. It will be similar to the image
 below that will serve as a basis for the final design:
 
-![](images/landing.png)
+![](images/Mockup-Landing.png)
 
 ### User Home Page
 
+![](images/Mockup-User-Landing.png)
+
 ### Admin Home Page
+
+![](images/Mockup-Admin-Landing.png)
 
 ### Vendor Home Page
 
+![](images/Mockup-Vendor-Landing.png)
+
 ### User Profile Page
+
+![](images/Mockup-UserProfile.png)
 
 ### NavBar Search Engine
 
+![](images/Mockup-search.png)
+
 ### Individual Recipe Page
+
+![](images/Mockup-Recipe.png)
 
 ## Development History and Milestones
 
