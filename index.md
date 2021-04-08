@@ -44,7 +44,7 @@ A live deployment of EasyChef is soon to be available.
 
 This section is soon to be available.
 
-## Mockup
+## Pre-Development Mockup
 
 ### Landing Page
 
