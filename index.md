@@ -104,10 +104,10 @@ Mockup development using Meteor and React is currently in progress.  To view the
 
 EasyChef is designed, implemented, and maintained by the [easy-chef](https://github.com/easy-chef) organization:
 
-* [Makana Lacson-Garrett](https://github.com/makanalg)
-* [Joshua Paino](https://github.com/joshipaino)
-* [Kat Shimomura](https://github.com/KatShimomura)
-* [Karen Wong](https://github.com/karenwong-kw)
+* [Makana Lacson-Garrett](https://makanalg.github.io/)
+* [Joshua Paino](https://joshipaino.github.io/)
+* [Kat Shimomura](https://katshimomura.github.io/)
+* [Karen Wong](https://karenwong-kw.github.io/)
 
 
 
