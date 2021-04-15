@@ -36,7 +36,9 @@ The following is what is currently planned for what the system will eventually p
 
 ## Deployment
 
-A live deployment of EasyChef is soon to be available on Digital Ocean and will be accessible here when ready.
+Live deployment available [here](http://143.110.238.211/)
+
+(Note: Landing page is currently only available)
 
 ## User Guide
 
