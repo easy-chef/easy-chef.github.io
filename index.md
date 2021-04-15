@@ -53,7 +53,7 @@ In order to record the development history, various milestones will be documente
 
 ### Milestone 1: Mockup development
 
-Mockup development using Meteor and React is currently in progress.  To view the progress of our mockup development, visit our [project board.](https://github.com/easy-chef/easy-chef/projects/1)
+Completed as of 4/15/2021.  To view the work of our mockup development, visit our [M1 project board.](https://github.com/easy-chef/easy-chef/projects/1)
 
 ### Pre-Development Mockup
 
@@ -105,6 +105,11 @@ The page dedicated to displaying information of a recipe that have been created 
 (An Individual Recipe page with React and Semantic made as of [M1](https://github.com/easy-chef/easy-chef/projects/1))
 
 ![](images/Mockup-Recipe-react.png)
+
+### Milestone 2: Implementation
+
+Milestone 2 implementation is currently in progress.  To view our current progress, visit our [M2 project board.](https://github.com/easy-chef/easy-chef/projects/2)
+
 
 ## Team
 
