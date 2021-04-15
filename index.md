@@ -38,58 +38,11 @@ The following is what is currently planned for what the system will eventually p
 
 Live deployment available [here](http://143.110.238.211/)
 
-(Note: Landing page is currently only available)
+(Note: Landing page is currently only available as of [M1](https://github.com/easy-chef/easy-chef/projects/1).  To view another mockup page, log-in via john@foo.com (password: changeme) and go to [http://143.110.238.211/#/recipe](http://143.110.238.211/#/recipe))
 
 ## User Guide
 
 This section is soon to be available.
-
-## Pre-Development Mockup
-
-The UI mockups below were created using Photoshop and serves as the basis for the development for [Milestone 1.](https://github.com/easy-chef/easy-chef/projects/1)
-
-### Landing Page
-
-The landing page is presented to users when they visit the top-level URL to the site. It will be similar to the image
-below that will serve as a basis for the final design.
-
-![](images/Mockup-Landing.png)
-
-### User Home Page
-
-The user home page is presented after a user logs-in with an account that has the "student" role. This page is similar to the landing page with the addition of new options such as "Add Recipe" that is available at the top of the navigation bar.
-
-![](images/Mockup-User-Landing.png)
-
-### Vendor Home Page
-
-The vendor home page is presented after a user logs-in with an account that has "vendor" role. Accounts with the "vendor" role will have unique options in the navigation bar such as "Add Ingredient."
-
-![](images/Mockup-Vendor-Landing.png)
-
-### Admin Home Page
-
-The admin home page is presented after a user logs-in with an account that "admin" role. Accounts with the "admin" role has an additional option in the navigation bar called "Admin" that allows one to view all items (users, recipes, vendors, etc.) in the system.
-
-![](images/Mockup-Admin-Landing.png)
-
-### User Profile Page
-
-Each user will have a personalized profile that presents information such as count of recipes added as well as favorite recipes shared by other users.  It will also present a bio where users can describe themselves within the UH community.  The mockup below represents a sample student profile.  Vendors may have profiles with other types of information.
-
-![](images/Mockup-UserProfile.png)
-
-### NavBar Search Engine
-
-A dedicated page to search all recipes that has been posted to the application.  Here, users can search by name and filter results based on dietary restrictions.  The page will present a list of cards with recipes that meet the search results. 
-
-![](images/Mockup-search.png)
-
-### Individual Recipe Page
-
-The page dedicated to displaying information of a recipe that have been created by a student.  This page present information such as the recipe name, author, image, ingredients, steps, and total cost.  The ingredients will be tied to information posted by vendors to allow students to discover where in the UH area they will be able to find said ingredients and how much each item costs at a particular location.
-
-![](images/Mockup-Recipe.png)
 
 ## Development History and Milestones
 
@@ -101,6 +54,57 @@ In order to record the development history, various milestones will be documente
 ### Milestone 1: Mockup development
 
 Mockup development using Meteor and React is currently in progress.  To view the progress of our mockup development, visit our [project board.](https://github.com/easy-chef/easy-chef/projects/1)
+
+### Pre-Development Mockup
+
+The UI mockups below were created using Photoshop and serves as the basis for the development for [Milestone 1.](https://github.com/easy-chef/easy-chef/projects/1)
+
+#### Landing Page
+
+The landing page is presented to users when they visit the top-level URL to the site. It will be similar to the image
+below that will serve as a basis for the final design.
+
+![](images/Mockup-Landing.png)
+
+#### User Home Page
+
+The user home page is presented after a user logs-in with an account that has the "student" role. This page is similar to the landing page with the addition of new options such as "Add Recipe" that is available at the top of the navigation bar.
+
+![](images/Mockup-User-Landing.png)
+
+#### Vendor Home Page
+
+The vendor home page is presented after a user logs-in with an account that has "vendor" role. Accounts with the "vendor" role will have unique options in the navigation bar such as "Add Ingredient."
+
+![](images/Mockup-Vendor-Landing.png)
+
+#### Admin Home Page
+
+The admin home page is presented after a user logs-in with an account that "admin" role. Accounts with the "admin" role has an additional option in the navigation bar called "Admin" that allows one to view all items (users, recipes, vendors, etc.) in the system.
+
+![](images/Mockup-Admin-Landing.png)
+
+#### User Profile Page
+
+Each user will have a personalized profile that presents information such as count of recipes added as well as favorite recipes shared by other users.  It will also present a bio where users can describe themselves within the UH community.  The mockup below represents a sample student profile.  Vendors may have profiles with other types of information.
+
+![](images/Mockup-UserProfile.png)
+
+#### NavBar Search Engine
+
+A dedicated page to search all recipes that has been posted to the application.  Here, users can search by name and filter results based on dietary restrictions.  The page will present a list of cards with recipes that meet the search results.
+
+![](images/Mockup-search.png)
+
+#### Individual Recipe Page
+
+The page dedicated to displaying information of a recipe that have been created by a student.  This page present information such as the recipe name, author, image, ingredients, steps, and total cost.  The ingredients will be tied to information posted by vendors to allow students to discover where in the UH area they will be able to find said ingredients and how much each item costs at a particular location.
+
+![](images/Mockup-Recipe.png)
+
+(An Individual Recipe page with React and Semantic made as of [M1](https://github.com/easy-chef/easy-chef/projects/1))
+
+![](images/Mockup-Recipe-react.png)
 
 ## Team
 
