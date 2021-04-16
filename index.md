@@ -57,7 +57,7 @@ Completed as of 4/15/2021.  To view the work of our mockup development, visit ou
 
 ### Pre-Development Mockup
 
-The UI mockups below were created using Photoshop and serves as the basis for the development for [Milestone 1.](https://github.com/easy-chef/easy-chef/projects/1)
+The UI mockups below were created using Photoshop and serves as the basis for the development for [Milestone 1](https://github.com/easy-chef/easy-chef/projects/1) where some pages were able to be implemented with Meteor and React.
 
 #### Landing Page
 
@@ -65,6 +65,10 @@ The landing page is presented to users when they visit the top-level URL to the 
 below that will serve as a basis for the final design.
 
 ![](images/Mockup-Landing.png)
+
+(Below is a landing page with Meteor and React made as of [M1](https://github.com/easy-chef/easy-chef/projects/1))
+
+![](images/Mockup-Landing-react.png)
 
 #### User Home Page
 
@@ -102,7 +106,7 @@ The page dedicated to displaying information of a recipe that have been created 
 
 ![](images/Mockup-Recipe.png)
 
-(An Individual Recipe page with React and Semantic made as of [M1](https://github.com/easy-chef/easy-chef/projects/1))
+(Below is an individual Recipe page with Meteor and React made as of [M1](https://github.com/easy-chef/easy-chef/projects/1))
 
 ![](images/Mockup-Recipe-react.png)
 
