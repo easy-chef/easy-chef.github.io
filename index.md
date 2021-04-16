@@ -3,7 +3,6 @@
 * [Overview](#overview)
 * [Deployment](#deployment)
 * [User Guide](#user-guide)
-* [Pre-Development Mockup](#pre-development-mockup)
 * [Development History and Milestones](#development-history-and-milestones)
 * [Team](#team)
 
