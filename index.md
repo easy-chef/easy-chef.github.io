@@ -35,9 +35,9 @@ The following is what is currently planned for what the system will eventually p
 
 ## Deployment
 
-Live deployment available [here](http://143.110.238.211/)
+Live deployment available [here](https://easychef.xyz/#/)
 
-(Note: Landing page is currently only available as of [M1](https://github.com/easy-chef/easy-chef/projects/1).  To view another mockup page, log-in via john@foo.com (password: changeme) and go to [http://143.110.238.211/#/recipe](http://143.110.238.211/#/recipe))
+(Note: Landing page is currently only available as of [M1](https://github.com/easy-chef/easy-chef/projects/1).  To view another mockup page, log-in via john@foo.com (password: changeme) and go to [the recipe page](https://easychef.xyz/#/recipe))
 
 ## User Guide
 
