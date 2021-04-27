@@ -33,15 +33,176 @@ The following is what is currently planned for what the system will eventually p
 * Rating system (5 stars) to rate user posted recipes and quality of ingredients posted by vendors.
 * Map of the UH campus community to allow students to find ingredients posted by vendors and see if a certain vendor item is available at a certain location (ex. Foodland @ Ala Moana).
 
-## Deployment
+## Developer's Guide
+
+### Deployment
 
 Live deployment available [here](https://easychef.xyz/#/)
 
 (Note: Landing page is currently only available as of [M1](https://github.com/easy-chef/easy-chef/projects/1).  To view another mockup page, log-in via john@foo.com (password: changeme) and go to [the recipe page](https://easychef.xyz/#/recipe))
 
+### Installation
+
+First, [install Meteor](https://www.meteor.com/install).
+
+Second, go to [https://github.com/easy-chef/easy-chef](https://github.com/easy-chef/easy-chef), and click the "Use this template" button. Complete the dialog box to create a new repository that you own that is initialized with this template's files.
+
+Third, go to your newly created repository, and click the "Clone or download" button to download your new GitHub repo to your local file system.  Using [GitHub Desktop](https://desktop.github.com/) is a great choice if you use MacOS or Windows.
+
+Fourth, cd into the app/ directory of your local copy of the repo, and install third party libraries with:
+
+```
+$ meteor npm install
+```
+
+### Running the system
+
+Once the libraries are installed, you can run the application by invoking the "start" script in the [package.json file](https://github.com/ics-software-engineering/meteor-application-template-react/blob/master/app/package.json):
+
+```
+$ meteor npm run start
+```
+
+The first time you run the app, it will create some default users and data. Here is the output:
+
+```
+meteor npm run start
+
+> meteor-application-template-react@ start /Users/philipjohnson/github/ics-software-engineering/meteor-application-template-react/app
+> meteor --no-release-check --settings ../config/settings.development.json
+
+[[[[[ ~/github/ics-software-engineering/meteor-application-template-react/app ]]]]]
+
+=> Started proxy.
+=> Started MongoDB.
+I20210427-11:36:34.839(-10)? Creating the default user(s)
+I20210427-11:36:34.840(-10)?   Creating user admin@foo.com.
+I20210427-11:36:35.150(-10)?   Creating user vendor@foo.com.
+I20210427-11:36:35.432(-10)?   Creating user john@foo.com.
+I20210427-11:36:35.704(-10)? Creating default recipes
+I20210427-11:36:35.705(-10)?   Adding: Tasty Mac 'n Cheese (john@foo.com)
+I20210427-11:36:35.724(-10)?   Adding: Chili Pasta (john@foo.com)
+I20210427-11:36:35.729(-10)?   Adding: Green Smoothie (john@foo.com)
+I20210427-11:36:35.736(-10)? Creating default Profiles.
+I20210427-11:36:35.737(-10)?   Adding: John (john@foo.com)
+I20210427-11:36:35.758(-10)?   Adding: Admin (admin@foo.com)
+I20210427-11:36:35.760(-10)?   Adding: Vendor (vendor@foo.com)
+I20210427-11:36:35.764(-10)? Creating default Vendors.
+I20210427-11:36:35.765(-10)?   Adding: The Market (vendor@foo.com)
+I20210427-11:36:35.795(-10)?   Adding: Foodland (vendor@foo.com)
+I20210427-11:36:35.798(-10)? Creating default Ingredients.
+I20210427-11:36:35.798(-10)?   Adding: Milk (vendor@foo.com)
+I20210427-11:36:35.812(-10)?   Adding: Butter (vendor@foo.com)
+I20210427-11:36:35.814(-10)?   Adding: Flour (vendor@foo.com)
+I20210427-11:36:35.816(-10)?   Adding: Salt (vendor@foo.com)
+I20210427-11:36:35.917(-10)? Monti APM: completed instrumenting the app
+=> Started your app.
+
+
+=> App running at: http://localhost:3000/
+```
+
+
+### Note regarding "bcrypt warning":
+
+You will also get the following message when you run this application:
+
+```
+Note: you are using a pure-JavaScript implementation of bcrypt.
+While this implementation will work correctly, it is known to be
+approximately three times slower than the native implementation.
+In order to use the native implementation instead, run
+
+  meteor npm install --save bcrypt
+
+in the root directory of your application.
+```
+
+On some operating systems (particularly Windows), installing bcrypt is much more difficult than implied by the above message. Bcrypt is only used in Meteor for password checking, so the performance implications are negligible until your site has very high traffic. You can safely ignore this warning without any problems during initial stages of development.
+
+### Note regarding "MongoError: not master and slaveOk=false":
+
+Intermittently, you may see the following error message in the console when the system starts up:
+
+```
+MongoError: not master and slaveOk=false
+     at queryCallback (/Users/philipjohnson/.meteor/packages/npm-mongo/.3.1.1.1mmptof.qcqo++os+web.browser+web.browser.legacy+web.cordova/npm/node_modules/mongodb-core/lib/cursor.js:248:25)
+     at /Users/philipjohnson/.meteor/packages/npm-mongo/.3.1.1.1mmptof.qcqo++os+web.browser+web.browser.legacy+web.cordova/npm/node_modules/mongodb-core/lib/connection/pool.js:532:18
+     at _combinedTickCallback (internal/process/next_tick.js:131:7)
+     at process._tickDomainCallback (internal/process/next_tick.js:218:9)
+```
+
+While irritating, this message appears to be harmless and [possibly related to a race condition between the development instance of Mongo and Meteor](https://github.com/meteor/meteor/issues/9026#issuecomment-330850366). By harmless, I mean that in most cases, the console goes on to display `App running at: http://localhost:3000/` and no problems occur during run time.
+
+### Viewing the running app
+
+If all goes well, the template application will appear at [http://localhost:3000](http://localhost:3000).  You can login using the credentials in [settings.development.json](https://github.com/ics-software-engineering/meteor-application-template-react/blob/master/config/settings.development.json), or else register a new account.
+
+### ESLint
+
+You can verify that the code obeys our coding standards by running ESLint over the code in the imports/ directory with:
+
+```
+meteor npm run lint
+```
+
+## Walkthrough
+
+The following sections describe the major features of this template.
+
+### Directory structure
+
+The top-level directory structure is:
+
+```
+app/        # holds the Meteor application sources
+config/     # holds configuration files, such as settings.development.json
+doc/        # holds developer documentation, user guides, etc.
+.gitignore  # don't commit IntelliJ project files, node_modules, and settings.production.json
+```
+
+This structure separates documentation files (such as screenshots) and configuration files (such as the settings files) from the actual Meteor application.
+
+The app/ directory has this structure:
+
+```
+client/
+  main.html      # The boilerplate HTML with a "root" div to be manipulated by React.
+  main.js        # import startup files.
+  style.css      # Style page
+
+imports/
+  api/           # Define collections
+    profile/       # The Profile collection definition
+    recipe/        # The Recipe collection definition
+    vendor/        # The Vendor and Ingredient collection definition
+  startup/       # Define code to run when system starts up (client-only, server-only, both)
+    client/
+    server/
+  ui/
+    layouts/     # Contains top-level layout (<App> component).
+    pages/       # Contains components for each page.
+    components/  # Contains page elements, some of which could appear on multiple pages.
+
+node_modules/    # managed by npm
+
+public/          # static assets (like images) can go here.
+
+server/
+   main.js       # import the server-side js files.
+```
+
+### Import conventions
+
+This system adheres to the Meteor guideline of putting all application code in the imports/ directory, and using client/main.js and server/main.js to import the code appropriate for the client and server in an appropriate order.
+
 ## User Guide
 
-This section is soon to be available.
+In order for a user to access the functions of this website, they will have to sign up and/or log in (if the user is already signed up).  Users can also be registered as vendors, where they will be able to add and edit ingredients and their prices.  Vendors will have to be approved by the admin.
+
+By default, each user is only able to edit their own recipes.  Also by default, each vendor is only able to edit their own ingredients.  However, the settings file enables you to define default accounts.  If you define a user with the role "admin", then that user gets access to special pages which lists all the recipes and ingredients defined by all users.
+
+There will be screen shots of each page of the web application below.  Each page section will have a description of how to navigate to the page and the page's uses.
 
 ## Development History and Milestones
 
@@ -92,6 +253,8 @@ The admin home page is presented after a user logs-in with an account that "admi
 Each user will have a personalized profile that presents information such as count of recipes added as well as favorite recipes shared by other users.  It will also present a bio where users can describe themselves within the UH community.  The mockup below represents a sample student profile.  Vendors may have profiles with other types of information.
 
 ![](images/Mockup-UserProfile.png)
+
+To navigate to the user profile page, use the drop down menu where the username is displayed on the navigation bar, then click "View Profile".  To edit the information displayed, use the dropdown menu where the username is displayed on the navigation bar, then click "Edit Profile".
 
 #### NavBar Search Engine
 
