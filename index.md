@@ -217,27 +217,41 @@ below that will serve as a basis for the final design.
 
 The user home page is presented after a user logs-in with an account that has the "student" role. This page is similar to the landing page with the addition of new options such as "Add Recipe" that is available at the top of the navigation bar.
 
-![](images/Mockup-User-Landing.png)
+(Below is the user home page with Meteor and React made as of [M1](https://github.com/easy-chef/easy-chef/projects/1))
+
+![](images/easyChefUserHomeM1.png)
 
 #### Vendor Home Page
 
 The vendor home page is presented after a user logs-in with an account that has "vendor" role. Accounts with the "vendor" role will have unique options in the navigation bar such as "Add Ingredient."
 
-![](images/Mockup-Vendor-Landing.png)
+(Below is the vendor home page with Meteor and React made as of [M1](https://github.com/easy-chef/easy-chef/projects/1))
+
+![](images/easyChefVendorHomeM1.png)
 
 #### Admin Home Page
 
 The admin home page is presented after a user logs-in with an account that "admin" role. Accounts with the "admin" role has an additional option in the navigation bar called "Admin" that allows one to view all items (users, recipes, vendors, etc.) in the system.
 
-![](images/Mockup-Admin-Landing.png)
+(Below is the admin home page with Meteor and React made as of [M1](https://github.com/easy-chef/easy-chef/projects/1))
+
+![](images/easyChefAdminHomeM1.png)
 
 #### User Profile Page
 
-Each user will have a personalized profile that presents information such as count of recipes added as well as favorite recipes shared by other users.  It will also present a bio where users can describe themselves within the UH community.  The mockup below represents a sample student profile.  Vendors may have profiles with other types of information.
+To navigate to the user profile page, use the drop down menu where the username is displayed on the navigation bar, then click "View Profile".  Each user will have a personalized profile that presents information such as count of recipes added as well as favorite recipes shared by other users.  It will also present a bio where users can describe themselves within the UH community.  The mockup below represents a sample student profile.  Vendors may have profiles with other types of information.
 
-![](images/Mockup-UserProfile.png)
+(Below is the user profile page with Meteor and React made as of [M2](https://github.com/easy-chef/easy-chef/projects/2))
 
-To navigate to the user profile page, use the drop down menu where the username is displayed on the navigation bar, then click "View Profile".  To edit the information displayed, use the dropdown menu where the username is displayed on the navigation bar, then click "Edit Profile".
+![](images/easyChefUserProfileM2.png)
+
+#### Edit Profile Page
+
+To edit the information displayed in the user profile, use the dropdown menu where the username is displayed on the navigation bar, then click "Edit Profile".
+
+(Below is the edit profile page with Meteor and React made as of [M2](https://github.com/easy-chef/easy-chef/projects/2))
+
+![](images/easyChefEditProfileM2.png)
 
 #### NavBar Search Engine
 
