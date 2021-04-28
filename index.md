@@ -37,6 +37,8 @@ The following is what is currently planned for what the system will eventually p
 
 ### Deployment
 
+![ci-badge](https://github.com/easy-chef/easy-chef/workflows/easy-chef/badge.svg)
+
 Live deployment available [here.](https://easychef.xyz/#/)
 
 ### Installation
