@@ -337,7 +337,11 @@ The page dedicated to displaying information of a recipe that have been created 
 
 ### Milestone 2: Implementation
 
-Milestone 2 implementation is currently in progress.  To view our current progress, visit our [M2 project board.](https://github.com/easy-chef/easy-chef/projects/2)
+Milestone 2 implementation is currently finished.  To view our current progress, visit our [M2 project board.](https://github.com/easy-chef/easy-chef/projects/2)
+
+### Milestone 3: Implementation
+
+Milestone 3 implementation is currently in progress. To view our current progress, visit our [M3 project board.](https://github.com/easy-chef/easy-chef/projects/3)
 
 
 ## Team
