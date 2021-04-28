@@ -37,9 +37,7 @@ The following is what is currently planned for what the system will eventually p
 
 ### Deployment
 
-Live deployment available [here](https://easychef.xyz/#/)
-
-(Note: Landing page is currently only available as of [M1](https://github.com/easy-chef/easy-chef/projects/1).  To view another mockup page, log-in via john@foo.com (password: changeme) and go to [the recipe page](https://easychef.xyz/#/recipe))
+Live deployment available [here.](https://easychef.xyz/#/)
 
 ### Installation
 
@@ -337,9 +335,14 @@ The page dedicated to displaying information of a recipe that have been created 
 
 ### Milestone 2: Implementation
 
-Milestone 2 implementation is currently finished.  To view our current progress, visit our [M2 project board.](https://github.com/easy-chef/easy-chef/projects/2)
+Milestone 2 implementation currently finished as of 4/27/2021.  To view the work of this milestone, visit our [M2 project board.](https://github.com/easy-chef/easy-chef/projects/2)
 
-### Milestone 3: Implementation
+#### Overview of M2
+* Added collections such as Profiles, Recipes, and Vendors.
+* Added forms to create profiles, ingredients and recipe.
+* Implemented various pages to view profile, recipe and vendor information.
+
+### Milestone 3: Completion
 
 Milestone 3 implementation is currently in progress. To view our current progress, visit our [M3 project board.](https://github.com/easy-chef/easy-chef/projects/3)
 
