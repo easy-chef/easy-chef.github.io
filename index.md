@@ -272,7 +272,7 @@ The page dedicated to displaying information of a recipe that have been created 
 Here are some thoughts from some UH community members about the EasyChef application:
 
 <blockquote> User experience and navigating through the pages feels intuitive for a modern application. </blockquote>
-<footer>Jorj C.(jcaguioa@hawaii.edu)</footer>
+<footer>Jorj C. (jcaguioa@hawaii.edu)</footer>
 
 
 ## Development History and Milestones
