@@ -274,6 +274,9 @@ Here are some thoughts from some UH community members about the EasyChef applica
 <blockquote> User experience and navigating through the pages feels intuitive for a modern application. </blockquote>
 <footer>Jorj C. (jcaguioa@hawaii.edu)</footer>
 
+<blockquote> I like the design of the website it is easy to navigate and very user friendly. I like how the user is able to view a list of all recipes and adding new recipes is simple and clear. The vendor page is clean and has large logo to see who the venders are. I would like to see the home page with larger images because I feel like it is plain. Other than that I like the website and it’s usages.  </blockquote>
+<footer>Daniel F. (dtf@hawaii.edu)</footer>
+
 
 ## Development History and Milestones
 
