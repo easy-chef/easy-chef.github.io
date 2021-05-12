@@ -277,6 +277,9 @@ Here are some thoughts from some UH community members about the EasyChef applica
 <blockquote> I like the design of the website it is easy to navigate and very user friendly. I like how the user is able to view a list of all recipes and adding new recipes is simple and clear. The vendor page is clean and has large logo to see who the venders are. I would like to see the home page with larger images because I feel like it is plain. Other than that I like the website and it’s usages.  </blockquote>
 <footer>Daniel F. (dtf@hawaii.edu)</footer>
 
+<blockquote> The website is nice because it's simple to navigate and I like the concept of easy recipes for those who don't have good cooking utilities.  A lot of people are staying home and bored, so they're getting into cooking and this is kind of nice because it's like FaceBook for beginning chefs. </blockquote>
+<footer>Palmer T. (ptanaka@hawaii.edu)</footer>
+
 
 ## Development History and Milestones
 
