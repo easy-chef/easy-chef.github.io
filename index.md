@@ -271,7 +271,7 @@ The page dedicated to displaying information of a recipe that have been created 
 
 Here are some thoughts from some UH community members about the EasyChef application:
 
-<blockquote> User experience and navigating through the pages feels intuitive for a modern application. </blockquote>
+<blockquote> User experience and navigating through the pages feels intuitive for a modern application.  I like the interface and design of the application, however I think adding recipes and ingredients could be improved by streamlining user inputs and mentioning specific details for things like ingredient size.  Restrictions could also include more diets such as vegan, kosher, halal and low carbohydrates that way the app is moe inclusive for more people. </blockquote>
 <footer>Jorj C. (jcaguioa@hawaii.edu)</footer>
 
 <blockquote> I like the design of the website it is easy to navigate and very user friendly. I like how the user is able to view a list of all recipes and adding new recipes is simple and clear. The vendor page is clean and has large logo to see who the venders are. I would like to see the home page with larger images because I feel like it is plain. Other than that I like the website and it’s usages.  </blockquote>
