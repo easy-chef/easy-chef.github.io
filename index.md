@@ -209,63 +209,73 @@ There will be screen shots of each page of the web application below.  Each page
 The landing page is presented to users when they visit the top-level URL to the site. It will be similar to the image
 below that will serve as a basis for the final design.
 
-(Below is a landing page with Meteor and React made as of [M1](https://github.com/easy-chef/easy-chef/projects/1))
-
-![](images/Mockup-Landing-react.png)
+![](images/M3_landing.png)
 
 #### User Home Page
 
 The user home page is presented after a user logs-in with an account that has the "student" role. This page is similar to the landing page with the addition of new options such as "Add Recipe" that is available at the top of the navigation bar.
 
-(Below is the user home page with Meteor and React made as of [M1](https://github.com/easy-chef/easy-chef/projects/1))
-
-![](images/easyChefUserHomeM1.png)
+![](images/M3_userhome.png)
 
 #### Vendor Home Page
 
 The vendor home page is presented after a user logs-in with an account that has "vendor" role. Accounts with the "vendor" role will have unique options in the navigation bar such as "Add Ingredient."
 
-(Below is the vendor home page with Meteor and React made as of [M1](https://github.com/easy-chef/easy-chef/projects/1))
-
-![](images/easyChefVendorHomeM1.png)
-
-#### Admin Home Page
-
-The admin home page is presented after a user logs-in with an account that "admin" role. Accounts with the "admin" role has an additional option in the navigation bar called "Admin" that allows one to view all items (users, recipes, vendors, etc.) in the system.
-
-(Below is the admin home page with Meteor and React made as of [M1](https://github.com/easy-chef/easy-chef/projects/1))
-
-![](images/easyChefAdminHomeM1.png)
+![](images/M3_vendorhome.png)
 
 #### User Profile Page
 
 To navigate to the user profile page, use the drop down menu where the username is displayed on the navigation bar, then click "View Profile".  Each user will have a personalized profile that presents information such as count of recipes added as well as favorite recipes shared by other users.  It will also present a bio where users can describe themselves within the UH community.  The mockup below represents a sample student profile.  Vendors may have profiles with other types of information.
 
-(Below is the user profile page with Meteor and React made as of [M2](https://github.com/easy-chef/easy-chef/projects/2))
-
-![](images/easyChefUserProfileM2.png)
+![](images/M3_userprofile.png)
 
 #### Edit Profile Page
 
 To edit the information displayed in the user profile, use the dropdown menu where the username is displayed on the navigation bar, then click "Edit Profile".
 
-(Below is the edit profile page with Meteor and React made as of [M2](https://github.com/easy-chef/easy-chef/projects/2))
+![](images/M3_editprofile.png)
 
-![](images/easyChefEditProfileM2.png)
+#### Add Recipe
+
+To make a recipe, click on the "Your recipes" navbar options to quickly write down your recipe.
+
+![](images/M3_addrecipe.png)
 
 #### NavBar Search Engine
 
 A dedicated page to search all recipes that has been posted to the application.  Here, users can search by name and filter results based on dietary restrictions.  The page will present a list of cards with recipes that meet the search results.
 
-![](images/Mockup-search.png)
+![](images/M3_search.png)
 
 #### Individual Recipe Page
 
-The page dedicated to displaying information of a recipe that have been created by a student.  This page present information such as the recipe name, author, image, ingredients, steps, and total cost.  The ingredients will be tied to information posted by vendors to allow students to discover where in the UH area they will be able to find said ingredients and how much each item costs at a particular location.
+The page dedicated to displaying information of a recipe that have been created by a student.  This page present information such as the recipe name, author, image, ingredients, steps, and estimated total cost.  The ingredients will be tied to information posted by vendors to allow students to see the lowest total cost to make the recipe.  Additionally, users can submit feedback by submitting a 5 star rating at the bottom.
 
-(Below is an individual Recipe page with Meteor and React made as of [M1](https://github.com/easy-chef/easy-chef/projects/1))
+![](images/M3_recipe.png)
 
-![](images/Mockup-Recipe-react.png)
+#### List Recipes
+
+This page lists out all the recipes created by the user that is currently log in.  In other words, you are able to easily access your own created recipes.
+
+![](images/M3_listrecipe.png)
+
+#### List Users
+
+This page lists out all the users who are signed up in the system in order to meet new people and contact them via email.
+
+![](images/M3_listusers.png)
+
+#### List Vendors
+
+This page lists all the vendors who have registered with Easy-Chef to deliver to you fresh quality ingredients.
+
+![](images/M3_listvendors.png)
+
+#### Vendor's Ingredient List
+
+A page accessible to vendors that allows them to view their inventory of ingredients and edit or remove ingredients when necessary.
+
+![](images/M3_listingredients.png)
 
 ## User Feedback 
 
