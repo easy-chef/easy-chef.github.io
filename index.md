@@ -243,7 +243,7 @@ To make a recipe, click on the "Your recipes" navbar options to quickly write do
 
 #### NavBar Search Engine
 
-A dedicated page to search all recipes that has been posted to the application.  Here, users can search by name and filter results based on dietary restrictions.  The page will present a list of cards with recipes that meet the search results.
+A dedicated page to search all recipes that has been posted to the application.  Here, users can search by name and filter results based on dietary restrictions.  The page will present a list of cards with recipes that meet the search results.  Clicking on the recipe name will take you to the dedicate page for that recipe.
 
 ![](images/M3_search.png)
 
@@ -255,7 +255,7 @@ The page dedicated to displaying information of a recipe that have been created 
 
 #### List Recipes
 
-This page lists out all the recipes created by the user that is currently log in.  In other words, you are able to easily access your own created recipes.
+This page lists out all the recipes created by the user that is currently log in.  In other words, you are able to easily access your own created recipes as well as edit them by clicking "Edit" at the bottom of each recipe.  Simiarly to the search page, clicking on a recipe name will direct you to the individual recipe page.
 
 ![](images/M3_listrecipe.png)
 
@@ -271,9 +271,15 @@ This page lists all the vendors who have registered with Easy-Chef to deliver to
 
 ![](images/M3_listvendors.png)
 
+#### List Vendors
+
+As a vendor the option is presented in the navbar called "Ingredients" where the "Add Ingredient" option can be selected to list down a new ingredient
+
+![](images/M3_listvendors.png)
+
 #### Vendor's Ingredient List
 
-A page accessible to vendors that allows them to view their inventory of ingredients and edit or remove ingredients when necessary.
+A page accessible to vendors also this is also under the "Ingredients" menu which displays inventory of ingredients with the ability to edit or remove ingredients when necessary.
 
 ![](images/M3_listingredients.png)
 
@@ -361,7 +367,7 @@ The page dedicated to displaying information of a recipe that have been created 
 
 ### Milestone 2: Implementation
 
-Milestone 2 implementation currently finished as of 4/27/2021.  To view the work of this milestone, visit our [M2 project board.](https://github.com/easy-chef/easy-chef/projects/2)
+Milestone 2 implementation finished as of 4/27/2021.  To view the work of this milestone, visit our [M2 project board.](https://github.com/easy-chef/easy-chef/projects/2)
 
 #### Overview of M2
 * Added collections such as Profiles, Recipes, and Vendors.
@@ -370,7 +376,15 @@ Milestone 2 implementation currently finished as of 4/27/2021.  To view the work
 
 ### Milestone 3: Completion
 
-Milestone 3 implementation is currently in progress. To view our current progress, visit our [M3 project board.](https://github.com/easy-chef/easy-chef/projects/3)
+Milestone 3 implementation finised as of 5/12/2021. To view the work of this milestone, visit our [M3 project board.](https://github.com/easy-chef/easy-chef/projects/3)
+
+#### Overview of M3
+* Visual overhaul to the user interface.
+* Implemented search function based on restrictions.
+* Implemented ability for system to compute lowest total cost of ingredients based on Vendor's ingredient inventory.
+* Implemented rating system for recipes.
+* Implemented page that presents all users in the system.
+
 
 
 ## Team
