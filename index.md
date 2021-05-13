@@ -296,6 +296,10 @@ Here are some thoughts from some UH community members about the EasyChef applica
 <blockquote> The website is nice because it's simple to navigate and I like the concept of easy recipes for those who don't have good cooking utilities.  A lot of people are staying home and bored, so they're getting into cooking and this is kind of nice because it's like FaceBook for beginning chefs. </blockquote>
 <footer>Palmer T. (ptanaka@hawaii.edu)</footer>
 
+<blockquote> I like the simple designs for adding and viewing recipes. I've seen similar apps that function similarly with sharing recipes, so I feel like this one would be especially useful for the local UH student community. It would be even better if there was function within an individual's account to save other users' recipes to refer back to later if they find ones they really like. It might also be even more helpful to be able to see recipes based on their difficulty or amount of ingredients because we all know how college students can be. (hmhn@hawaii.edu)</footer>
+
+<blockquote> The design looks super cool, very professional. I think it might be difficult for someone to get their account set up and see what different tools are availble just by looking at the home page. Maybe there should be something to make that process easier for people who aren’t familiar with website. (austindd@hawaii.edu)</footer>
+
 
 ## Development History and Milestones
 
