@@ -39,7 +39,7 @@ The following is what is currently planned for what the system will eventually p
 
 ![ci-badge](https://github.com/easy-chef/easy-chef/workflows/easy-chef/badge.svg)
 
-Live deployment available [here.](https://easychef.xyz/#/)
+NOTE: Due to costs of maintaining the application server, a live deployment of the site is currently not available.
 
 ### Installation
 
